@@ -21,7 +21,7 @@ services:
   php:
     container_name: php
     build:
-      context: ./php
+      context: php
     ports:
       - '9000:9000'
     volumes:
